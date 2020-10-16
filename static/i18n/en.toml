@@ -1,0 +1,12 @@
+# Sidebar
+[attribution]
+  other = "<a href='/credits/'>Credits & Attribution</a>"
+
+# Post
+[reading_time]
+  one = "1-Minute Read"
+  other = "{{ .Count }}-Minute Read"
+
+# Subscribe, Unsubscribe, and Success
+[feedback]
+  other = "Feedback"

@@ -1,0 +1,53 @@
+{{ define "main" }}
+<article class="post">
+	<header>
+		<div class="title">
+			<h1><a href="{{ .RelPermalink }}">{{ with .Title }}{{ . }}{{ else }}{{ i18n "contact" }}{{ end }}</a></h1>
+			{{ with .Description }}<p>{{ . }}</p>{{ end }}
+		</div>
+	</header>
+	<div id="contact-content">
+		{{ if .Params.form_before }}
+		{{ else }}
+			{{ .Content }}
+		{{ end }}
+		<div class="contact-container">
+			{{ if .Params.netlify }}
+			<form name="{{ .Params.form_name }}" action="{{ .Params.form_action }}" method="post" data-netlify-recaptcha="true" data-netlify="true" center width="300px">
+			{{ else }}
+			<form id="{{ .Params.form_name }}" action="{{ .Params.form_action }}" method="post" center width="300px">
+			{{ end }}
+				{{ if .Params.contact_answer_time }}
+				<h4>{{ i18n "contact_replies" .Params.contact_answer_time }}</h4>
+				{{ end }}
+				<fieldset>
+					<input placeholder="{{ i18n "form_name" }}" type="text" name="name" tabindex="1" required {{ if .Params.form_autofocus }}autofocus{{ end }}>
+				</fieldset>
+				{{ if .Params.anonymous }}
+				{{ else }}
+				<fieldset>
+					<input placeholder="{{ i18n "form_email" }}" type="email" name="_replyto" tabindex="2" required>
+				</fieldset>
+				{{ end }}
+				<fieldset>
+					<input placeholder="{{ i18n "form_subject" }}" type="text" name="_subject" tabindex="3" required>
+				</fieldset>
+				<fieldset>
+					<textarea placeholder="{{ i18n "form_body" }}" type="text" name="message" tabindex="4" required></textarea>
+				</fieldset>
+				<fieldset>
+					<input type="hidden" name="_language" value="{{ .Lang }}">
+				</fieldset>
+				<fieldset>
+					<div data-netlify-recaptcha="true"></div>
+					<button name="submit" class="button" type="submit" id="contact-submit" tabindex="5">{{ i18n "submit" }}</button>
+				</fieldset>
+			</form>
+		</div>
+		{{ if .Params.form_before }}
+			{{ .Content }}
+		{{ else }}
+		{{ end }}
+	</div>
+</article>
+{{ end }}

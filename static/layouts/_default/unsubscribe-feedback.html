@@ -1,0 +1,56 @@
+{{ define "main" }}
+<article class="post">
+	<header>
+		<div class="title">
+			<h1><a href="{{ .RelPermalink }}">{{ with .Title }}{{ . }}{{ else }}{{ i18n "feedback" }}{{ end }}</a></h1>
+			{{ with .Description }}<p>{{ . }}</p>{{ end }}
+		</div>
+	</header>
+	<div id="content">
+		{{ if .Params.form_before }}
+		{{ else }}
+			{{ .Content }}
+		{{ end }}
+		<div>
+			{{ if .Params.netlify }}
+			<form name="{{ .Params.form_name }}" action="{{ .Params.action }}" method="post" data-netlify-recaptcha="true" data-netlify="true" center width="300px">
+			{{ else }}
+			<form id="{{ .Params.form_name }}" action="{{ .Params.action }}" method="post" center width="300px">
+			{{ end }}
+				<fieldset>
+					<input type="radio" name="reason" id="interest" value="interest" tabindex="1" class="form-radio"/>
+					<label for="interest" class="form-radio-label">I am no longer interested in Shepherd's Oasis or their technical content.</label>
+				</fieldset>
+				<fieldset>
+					<input type="radio" name="reason" id="irrelevant" value="irrelevant" tabindex="2" class="form-radio">
+					<label for="irrelevant" class="form-radio-label">The contents were not useful or relevant to me.</label>
+				</fieldset>
+				<fieldset>
+					<input type="radio" name="reason" id="time" value="time" tabindex="3" class="form-radio">
+					<label for="time" class="form-radio-label">I do not have the time to read the newsletters or related content.</label>
+				</fieldset>
+				<fieldset>
+					<input type="radio" name="reason" id="spammy" value="spammy" tabindex="4" class="form-radio">
+					<label for="spammy" class="form-radio-label">The newsletter came too often for me.</label>
+				</fieldset>
+				<fieldset>
+						<input type="radio" name="reason" id="other" value="other" tabindex="5" class="form-radio">
+					<label for="other" class="form-radio-label">Of some other reason:</label>
+					<textarea placeholder="{{ i18n "form_body" }}" type="text" name="message" tabindex="6"></textarea>
+					<fieldset>
+						<input type="hidden" name="_language" value="{{ .Lang }}">
+					</fieldset>
+					<fieldset>
+						<div data-netlify-recaptcha="true"></div>
+						<button name="submit" class="button" type="submit" id="contact-submit" tabindex="5">{{ i18n "submit" }}</button>
+					</fieldset>
+				</fieldset>
+			</form>
+		</div>
+		{{ if .Params.form_before }}
+			{{ .Content }}
+		{{ else }}
+		{{ end }}
+	</div>
+</article>
+{{ end }}

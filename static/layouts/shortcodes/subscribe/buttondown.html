@@ -1,0 +1,18 @@
+<form method="post"
+action="https://buttondown.email/api/emails/embed-subscribe/Soasis"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/Soasis', 'popupwindow')"
+class="embeddable-buttondown-form">
+	<div style="margin-left: 5%; margin-right: 5%;">
+		<label for="bd-email">Subscribe to the newsletter:</label>
+		<input type="email" name="email" id="bd-email"></input>
+		<input type="hidden" name="embed" value="1"></input>
+		{{ with .Get "tag" }}
+			<input type="hidden" name="tag" value="{{.}}" />
+		{{ end }}
+		<input type="submit" value="{{ .Get "text" }}"></input>
+		<p style="font-size: 80%;">
+			<a href="https://buttondown.email" target="_blank">Powered with 💙, from Buttondown.</a>
+		</p>
+	</div>
+</form>

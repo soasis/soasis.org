@@ -1,0 +1,409 @@
+/* ========================
+---------------------------
+Variables for Color Schemes
+---------------------------
+======================== */
+
+:root {
+	--selection-light: #ffe9b4;
+	--selection-dark: #8189ae;
+
+	--black: #1b1f23;
+	--white: #ffffff;
+
+	--gray-000: #fafbfc;
+	--gray-100: #f6f8fa;
+	--gray-200: #e1e4e8;
+	--gray-300: #d1d5da;
+	--gray-400: #959da5;
+	--gray-500: #6a737d;
+	--gray-600: #586069;
+	--gray-700: #444d56;
+	--gray-800: #2f363d;
+	--gray-900: #24292e;
+
+	--blue-000:#f1f8ff;
+	--blue-100:#dbedff;
+	--blue-200:#c8e1ff;
+	--blue-300:#79b8ff;
+	--blue-400:#2188ff;
+	--blue-500:#0366d6;
+	--blue-600:#005cc5;
+	--blue-700:#044289;
+	--blue-800:#032f62;
+	--blue-900:#05264c;
+
+	--green-000:#f1fff8;
+	--green-100:#dbffed;
+	--green-200:#c8ffe1;
+	--green-300:#79ffb8;
+	--green-400:#21ff88;
+	--green-500:#03d666;
+	--green-600:#00c55c;
+	--green-700:#048942;
+	--green-800:#03622f;
+	--green-900:#054c26;
+}
+
+:root {
+	--header-font:    "Raleway", Helvetica, sans-serif;
+	--body-font:      "Source Sans Pro", Helvetica, sans-serif;
+	--code-font:      "Lucida Console", Monaco, monospace;
+	--fa-free-font:   "Font Awesome 5 Free";
+	--fa-brands-font: "Font Awesome 5 Brands";
+	
+	--header-color:            var(--black);
+	--header-background-color: var(--gray-000);
+	--text-color:              var(--gray-800);
+	--text-background-color:   var(--gray-100);
+	--background-color:        var(--gray-100);
+
+	--accent-color:              hsl(192, 100%, 42%);
+	--accent-hover:              hsla(175, 60%, 45%, 0.25);
+	--warning-color:             hsl(332, 60%, 45%);
+	--warning-hover:             hsla(332, 60%, 45%, 0.25);
+	--utility-color-primary:     hsl(0, 0%, 67%);
+	--utility-color-secondary:   hsl(210, 13%, 50%);
+	--utility-contrast:          hsl(0, 0%, 25%);
+	--share-button-color:        var(--gray-300);
+	--share-button-accent-color: var(--gray-000);
+
+	--border-color:     hsla(0, 0%, 63%, 0.3);
+	--input-color:      hsla(0, 0%, 63%, 0.07);
+	--active-color:     hsla(175, 60%, 45%, 0.05);
+	--accent-border:    1px solid var(--accent-color);
+	--primary-border:   1px solid var(--border-color);
+	--warning-border:   1px solid var(--warning-color);
+	--secondary-border: 1px dotted hsla(0, 0%, 63%, 0.7);
+	--cellborder-color: hsl(0, 0%, 88%);
+
+	--selection-color: var(--selection-light);
+
+	--main-background-color-0-light: #b7ffff;
+	--main-background-color-1-light: #b8ffc9;
+	--main-background-color-2-light: var(--text-background-color);
+	--main-background-color-3-light: #beb200;
+	--main-background-color-0-dark:  #1694dd;
+	--main-background-color-1-dark:  #179328;
+	--main-background-color-2-dark:  var(--text-background-color);
+	--main-background-color-3-dark:  #8a8700;
+
+	--main-color-0:            var(--text-color);
+	--main-background-color-0: var(--main-background-color-0-light);
+	--main-color-1:            var(--text-color);
+	--main-background-color-1: var(--main-background-color-1-light);
+	--main-color-2:            var(--text-color);
+	--main-background-color-2: var(--main-background-color-2-light);
+	--main-color-3:            var(--text-color);
+	--main-background-color-3: var(--main-background-color-3-light);
+}
+
+/* ------------------------
+Variables for Color Schemes
+------------------------ */
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color:      var(--gray-900);
+		--text-background-color: var(--gray-900);
+		--text-color:            var(--gray-200);
+		--header-color:          var(--gray-100);
+
+		--selection-background-color: var(--selection-dark);
+
+		--main-color-0:            var(--text-color);
+		--main-background-color-0: var(--main-background-color-0-dark);
+		--main-color-1:            var(--text-color);
+		--main-background-color-1: var(--main-background-color-1-dark);
+		--main-color-2:            var(--text-color);
+		--main-background-color-2: var(--main-background-color-2-dark);
+		--main-color-3:            var(--text-color);
+		--main-background-color-3: var(--main-background-color-3-dark);
+	}
+}
+
+/* =======
+----------
+Body Setup
+----------
+======= */
+
+*, *::after, *::before { box-sizing: inherit; }
+*::selection { background-color: var(--selection-background-color); }
+:root {
+	background-color: var(--text-background-color);
+	font-family: var(--body-font);
+	color: var(--text-color);
+}
+
+body {
+	background-color: var(--background-color);
+	font-family: var(--text-font);
+	color: var(--text-color);
+	letter-spacing: normal;
+	text-rendering: optimizeLegibility;
+}
+
+/* =================
+--------------------
+Color/Font Overrides
+--------------------
+================= */
+
+::-moz-selection, ::selection {
+	background: var(--accent-color);
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+.formerize-placeholder {
+	color: var(--utility-color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--header-color);
+	font-family: var(--header-font);
+}
+
+input,
+select,
+textarea {
+	color: var(--text-color);
+}
+
+input:hover, select:hover, textarea:hover {
+	border-color: var(--accent-color);
+}
+input:focus, select:focus, textarea:focus,
+input:active, select:active, textarea:active {
+	border: var(--accent-border);
+}
+
+pre {
+	font-family: var(--code-font);
+}
+
+table {
+	background-color: var(--text-background-color);
+}
+
+a:hover {
+	color: var(--accent-color);
+}
+
+hr {
+	border-top: var(--accent-border);
+}
+
+figcaption {
+	color: var(--text-background-color);
+}
+
+.browserupgrade {
+	background: var(--text-background-color);
+	color: var(--text-color);
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+	background-color: transparent;
+	color: var(--header-color);
+	border: var(--primary-border);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover {
+	border: var(--accent-border);
+	color: var(--accent-color) !important;
+}
+
+input[type="submit"]:hover:active,
+input[type="reset"]:hover:active,
+input[type="button"]:hover:active,
+.button:hover:active {
+	background-color: var(--active-color);
+}
+
+label {
+	color: var(--header-color);
+}
+
+.post {
+	background: var(--background-color);
+}
+
+.mini-post {
+	background: var(--background-color);
+}
+
+.flyout-menu {
+	background-color: var(--background-color);
+}
+
+.share-btn {
+	color: var(--share-button-color);
+}
+
+.share-btn:active {
+	color: var(--share-button-color);
+}
+
+.share-btn:hover {
+	color: var(--share-button-accent-color);
+}
+
+.search-input {
+	background-color: var(--text-background-color);
+}
+
+.copyright {
+	color: var(--utility-color-primary);
+}
+
+.submit-success {
+	border: var(--accent-border);
+	background: var(--accent-hover);
+}
+.submit-failed {
+	border: var(--warning-border);
+	background: var(--warning-hover);
+}
+
+#site-header {
+	background-color: var(--background-color);
+}
+
+#share-menu.flyout-menu {
+	width: 170px;
+	right: -250px;
+}
+
+#back-to-top {
+	color: var(--utility-color-secondary);
+}
+
+#back-to-top:hover {
+	color: var(--accent-color) !important;
+	transform: translateY(-10px);
+}
+
+/* ==========================
+-----------------------------
+Contact - Padding Adjustments
+-----------------------------
+========================== */
+
+#contact-content {
+	margin-top: 1em;
+}
+
+/* ===================
+----------------------
+Special Form Overrides
+----------------------
+=================== */
+
+.form-radio {
+	width: auto;
+	height: auto;
+}
+   
+.form-radio-label {
+	display: inline;
+	padding: 0 0 0 0.5em;
+}
+
+/* ====================
+-----------------------
+Index - Parallax Effect
+-----------------------
+=====================*/
+
+.parallax-wrapper {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 2px;
+}
+
+.bg-logo-left {
+	background-image: url("/img/main/banner-logo-left.png");
+	background-position: left;
+	height: 90vh;
+}
+
+.bg-logo-right {
+	background-image: url("/img/main/banner-logo-left.png");
+	background-position: left;
+	transform: scaleX(-1);
+	height: 90vh;
+}
+
+.bg-logo-right-fix {
+	transform: scaleX(-1);
+}
+
+.bg-logo-color-0 {
+	color: var(--main-color-0);
+	background-color: var(--main-background-color-0);
+}
+
+.bg-logo-color-1 {
+	color: var(--main-color-1);
+	background-color: var(--main-background-color-1);
+}
+
+.bg-logo-color-2 {
+	color: var(--main-color-2);
+	background-color: var(--main-background-color-2);
+}
+
+.bg-logo-color-3 {
+	color: var(--main-color-3);
+	background-color: var(--main-background-color-3);
+}
+
+.parallax-bg {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-text-header {
+	text-shadow: 0 0 3px var(--header-background-color);
+}
+
+.parallax-section {
+	position: relative;
+	display: flex;
+	color: var(--header-color);
+	padding: 3%
+}
+
+.parallax-text-right {
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.parallax-text-right {
+	align-items: center;
+	justify-content: right;
+}
+
+.parallax-text-center {
+	align-items: center;
+	justify-content: center;
+}

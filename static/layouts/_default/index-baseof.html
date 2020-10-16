@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ .Page.Language | default "en" }}">
+	{{ partial "head" . }}
+	<body>
+		{{ partial "site-header" . }}
+		<div id="main">
+			{{ block "main" . }}{{ end }}
+		</div>
+		<div id="footer-wrapper">
+			{{ partial "site-footer" . }}
+			{{ partial "scripts" . }}
+		</div>
+	</body>
+</html>
