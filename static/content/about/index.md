@@ -9,7 +9,7 @@ layout = "about"
 
 ## ✔ Software, Done Excellent {#done-excellent}
 
-We are a software consultancy, with special skills in C, C++, Rust, C# and other Systems Programming languages. Our company talent has over a decade of Software Engineering and Teaching experience, and years of ISO C and C++ practice. With engineers that are thorough and hardworking enough to be acknowledged in [Robert C. Seacord's Effective C](https://nostarch.com/Effective_C) book, we know we have the vision and drive to deliver simple, elegant, and safe code even for the most gnarled of systems. We have an immense amount of skills in taking the difficult and intractable and turning it into a divinely pleasant experience for customers and users globally. We are subject matter experts at:
+We are a software consultancy, with special skills in C, C++, Rust, C# and other Systems Programming languages. Our company talent has over a decade of Software Engineering and Teaching experience, and years of ISO C and C++ practice with code that has touched every device from Government to Research. With engineers that are thorough and hardworking enough to be acknowledged in [Robert C. Seacord's Effective C book](https://nostarch.com/Effective_C), we know we have the vision and drive to deliver simple, elegant, and safe code even for the most gnarled of systems. We have an immense amount of skills in taking the difficult and intractable and turning it into a divinely pleasant experience for customers and users globally. We are subject matter experts at:
 
 - Unicode, Encoding, and Text Processing;
 - Scripting and Systems for High Performance Environments;

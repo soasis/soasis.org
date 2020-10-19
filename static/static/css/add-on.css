@@ -56,6 +56,7 @@ Variables for Color Schemes
 	--header-background-color: var(--gray-000);
 	--text-color:              var(--gray-800);
 	--text-background-color:   var(--gray-100);
+	--text-background-color-2: var(--gray-300);
 	--background-color:        var(--gray-100);
 
 	--accent-color:              hsl(192, 100%, 42%);
@@ -80,12 +81,12 @@ Variables for Color Schemes
 	--selection-color: var(--selection-light);
 
 	--main-background-color-0-light: #b7ffff;
-	--main-background-color-1-light: #b8ffc9;
-	--main-background-color-2-light: var(--text-background-color);
-	--main-background-color-3-light: #beb200;
+	--main-background-color-1-light: #75ff75;
+	--main-background-color-2-light: #ffffff;
+	--main-background-color-3-light: #e2d300;
 	--main-background-color-0-dark:  #1694dd;
 	--main-background-color-1-dark:  #179328;
-	--main-background-color-2-dark:  var(--text-background-color);
+	--main-background-color-2-dark:  #222222;
 	--main-background-color-3-dark:  #8a8700;
 
 	--main-color-0:            var(--text-color);
@@ -96,6 +97,11 @@ Variables for Color Schemes
 	--main-background-color-2: var(--main-background-color-2-light);
 	--main-color-3:            var(--text-color);
 	--main-background-color-3: var(--main-background-color-3-light);
+
+	--main-button-background-color-0: var(--main-background-color-0-dark);
+	--main-button-background-color-1: var(--main-background-color-1-dark);
+	--main-button-background-color-2: var(--main-background-color-2-dark);
+	--main-button-background-color-3: var(--main-background-color-3-dark);
 }
 
 /* ------------------------
@@ -104,10 +110,11 @@ Variables for Color Schemes
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background-color:      var(--gray-900);
-		--text-background-color: var(--gray-900);
-		--text-color:            var(--gray-200);
-		--header-color:          var(--gray-100);
+		--background-color:        var(--gray-900);
+		--text-background-color:   var(--gray-900);
+		--text-background-color-2: var(--gray-600);
+		--text-color:              var(--gray-200);
+		--header-color:            var(--gray-100);
 
 		--selection-background-color: var(--selection-dark);
 
@@ -119,6 +126,11 @@ Variables for Color Schemes
 		--main-background-color-2: var(--main-background-color-2-dark);
 		--main-color-3:            var(--text-color);
 		--main-background-color-3: var(--main-background-color-3-dark);
+
+		--main-button-background-color-0: var(--main-background-color-0-light);
+		--main-button-background-color-1: var(--main-background-color-1-light);
+		--main-button-background-color-2: var(--main-background-color-2-light);
+		--main-button-background-color-3: var(--main-background-color-3-light);
 	}
 }
 
@@ -324,11 +336,119 @@ Special Form Overrides
 	padding: 0 0 0 0.5em;
 }
 
-/* ====================
------------------------
-Index - Parallax Effect
------------------------
-=====================*/
+/* ==
+-----
+Index
+-----
+== */
+
+/* -------------------
+Class skinned for main
+------------------- */
+
+.borderless {
+	border: none;
+}
+
+.larger-text {
+	font-size: 125%;
+}
+
+.main-image {
+	opacity: 0.5;
+	object-fit: cover;
+	height: 100%;
+	width: auto;
+	min-width: 200px;
+	min-height: 200px;
+}
+
+.main-button {
+	color: var(--text-background-color);
+}
+.main-button:hover {
+	border: var(--accent-border);
+	color: var(--accent-color);
+}
+.main-button:active {
+	background-color: var(--active-color);
+}
+
+.main-button-color-0 {
+	background-color: var(--main-button-background-color-0);
+}
+.main-button-color-0:hover {
+	border: var(--accent-border);
+}
+.main-button-color-0:active {
+	background-color: var(--active-color);
+}
+
+.main-button-color-1 {
+	background-color: var(--main-button-background-color-1);
+}
+
+.main-button-color-2 {
+	background-color: var(--main-button-background-color-2);
+}
+
+.main-button-color-3 {
+	background-color: var(--main-button-background-color-3);
+}
+
+/* ---------
+Column setup
+--------- */
+
+* {
+	box-sizing: border-box;
+}
+
+.main-row-right {
+	float: right;
+	margin: 15px 15px;
+}
+.main-row-right::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.main-row-left {
+	float: left;
+	margin: 15px 15px;
+}
+.main-row-left::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.main-column-12-0 {width: 8.33%;}
+.main-column-12-1 {width: 16.66%;}
+.main-column-12-2 {width: 25%;}
+.main-column-12-3 {width: 33.33%;}
+.main-column-12-4 {width: 41.66%;}
+.main-column-12-5 {width: 50%;}
+.main-column-12-6 {width: 58.33%;}
+.main-column-12-7 {width: 66.66%;}
+.main-column-12-8 {width: 75%;}
+.main-column-12-9 {width: 83.33%;}
+.main-column-12-10 {width: 91.66%;}
+.main-column-12-11 {width: 100%;}
+[class*="main-column-"] {
+	float: inherit;
+}
+
+@media (max-width: 600px) {
+	.main-column-too-small {
+		display: none;
+	}
+}
+
+/* ------------
+Parallax Effect
+------------ */
 
 .parallax-wrapper {
 	height: 100vh;
@@ -337,21 +457,25 @@ Index - Parallax Effect
 	perspective: 2px;
 }
 
+.bg-contracting {
+	background-image: url("/img/main/contracting.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+
 .bg-logo-left {
-	background-image: url("/img/main/banner-logo-left.png");
+	background-image: url("/img/main/logo.png");
 	background-position: left;
-	height: 90vh;
+	height: 80vh;
 }
 
 .bg-logo-right {
-	background-image: url("/img/main/banner-logo-left.png");
-	background-position: left;
-	transform: scaleX(-1);
-	height: 90vh;
-}
-
-.bg-logo-right-fix {
-	transform: scaleX(-1);
+	background-image: url("/img/main/logo.png");
+	background-position: right;
+	height: 80vh;
 }
 
 .bg-logo-color-0 {
@@ -377,7 +501,7 @@ Index - Parallax Effect
 .parallax-bg {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .parallax-text-header {
@@ -395,15 +519,19 @@ Index - Parallax Effect
 	text-align: right;
 	display: flex;
 	align-items: center;
-	justify-content: left;
-}
-
-.parallax-text-right {
-	align-items: center;
 	justify-content: right;
 }
 
+.parallax-text-left {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
 .parallax-text-center {
+	text-align: center;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
