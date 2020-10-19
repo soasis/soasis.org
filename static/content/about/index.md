@@ -28,7 +28,7 @@ We pride ourselves on our flexibility for a myriad of situations, so please do r
 
 ## 💙 Open Source {#open-source}
 
-If you are interested in our publicly funded and publicly-visible endeavors, please feel free to peruse, donate, and contribute at your leisure in these various places:
+Thank you to all of the sponsors, donors, subscribers and more to our work for the community. If you are interested in our publicly funded and publicly-visible endeavors, please feel free to peruse, donate, and contribute at your leisure in these various places:
 
 - [Patreon](https://www.patreon.com/Soasis)
 - [Paypal](https://www.paypal.me/Soasis)
@@ -36,9 +36,9 @@ If you are interested in our publicly funded and publicly-visible endeavors, ple
 - [Liberapay](https://liberapay.com/Soasis)
 - [GitHub](https://github.com/sponsors/ThePhD)
 
-The money here goes to helping the [Project Editor for the C Programming Language](http://www.open-std.org/jtc1/sc22/wg14/www/contacts) and funding the various projects, such as those he speaks of in his [Editor's Report to the C Programming Language](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2574.htm) and his [various proposals to the C++ library and language](https://wg21.link/p1629) which we are helping with!
+The money here goes to helping the [Project Editor for the C Programming Language](http://www.open-std.org/jtc1/sc22/wg14/www/contacts) and funding various projects, such as those in the [Editor's Report to the C Programming Language](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2574.htm) and the various proposals to the C++ library and language like [this one](https://wg21.link/p1629)! We will also continue to invest in the community alongside you to ensure a better Systems Programming world.
 
-We can't wait to help serve you and your needs your businesses, your communities, and beyond! Feel free to [contact us](/contact/) with anything about the website you like, or sign up to our newsletter just below for more information!
+We can't wait to help serve your needs, your businesses, your communities, and beyond! Feel free to [contact us](/contact/) with anything about the website you like, or sign up to our newsletter just below for more information!
 
 ---
 
