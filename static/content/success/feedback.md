@@ -2,7 +2,7 @@
 title = "💙 Bless You"
 description = "Your insights are extremely important to us."
 author = "Shepherd"
-date = "2020-10-18"
+date = "2020-10-20"
 layout = "about"
 +++
 

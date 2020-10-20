@@ -1,9 +1,11 @@
 +++
 title = "Unsubscribed Successfully"
-date = "2020-10-18"
+author = "Shepherd"
+date = "2020-10-20"
 layout = "unsubscribe-feedback"
 netlify = true
 anonymous = true
+form_action = "/success/feedback"
 form_name = "newsletter-feedback"
 form_before = false
 +++

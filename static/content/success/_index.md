@@ -2,7 +2,7 @@
 title = "Signed, Sealed"
 description = "Delivered."
 author = "Shepherd"
-date = "2020-10-18"
+date = "2020-10-20"
 layout = "about"
 +++
 

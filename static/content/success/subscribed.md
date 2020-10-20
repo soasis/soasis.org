@@ -2,7 +2,7 @@
 title = "Subscribed successfully"
 description = "Let's help you learn more and do great things!"
 author = "Shepherd"
-date = "2020-10-18"
+date = "2020-10-20"
 layout = "about"
 +++
 
