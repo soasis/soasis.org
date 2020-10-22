@@ -135,7 +135,7 @@ disableLanguages        = []
 
 [social]
   # Coding Communities
-  github                = "Soasis"
+  github                = "soasis"
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""
@@ -150,7 +150,7 @@ disableLanguages        = []
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin_company      = "shepherds-oasis"
+  linkedin_company      = "shepherdsoasis"
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
