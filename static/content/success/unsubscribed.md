@@ -15,5 +15,3 @@ Thank you for your interest in the newsletter for the time you stayed with us. ð
 If you have any feedback about this, please do let us know in the form below, or [return home](/).
 
 ---
-
-_I am unsubscribing because..._

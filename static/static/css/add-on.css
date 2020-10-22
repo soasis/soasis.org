@@ -251,6 +251,11 @@ label {
 	color: var(--header-color);
 }
 
+.feedback-selection {
+	min-height: 5.5em;
+	overflow: hidden;
+}
+
 .post {
 	background: var(--background-color);
 }

@@ -6,3 +6,5 @@ layout = "about"
 +++
 
 A confirmation e-mail was sent! Please check your inbox and make sure it does not go to your spam folder!
+
+[Return home](/).
