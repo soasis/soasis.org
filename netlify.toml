@@ -1,0 +1,10 @@
+[build]
+  environment = { HUGO_VERSION = "0.78.0" }
+
+[context.deploy-preview]
+  command = "hugo --source static --environment staging --configDir config --destination ../build/staging/static"
+  publish = "build/staging/static"
+
+[context.production]
+  command = "hugo --source static --environment production --configDir config --destination ../build/production/static"
+  publish = "build/production/static"
