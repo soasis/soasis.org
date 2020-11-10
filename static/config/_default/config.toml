@@ -26,6 +26,17 @@ disableLanguages        = []
 [markup.goldmark.renderer]
   unsafe                = true
 
+[markup.highlight]
+  anchorLineNos = true
+  codeFences = true
+  guessSyntax = false
+  lineNoStart = 0
+  lineNos = true
+  lineNumbersInTable = false
+  noClasses = true
+  style = "dracula"
+  tabWidth = 5
+
 [outputs]
   home                  = ["html", "json", "rss"]
 
@@ -35,8 +46,8 @@ disableLanguages        = []
   cssFiles              = ["default"]
   jsFiles               = ["default"]
   highlightjs           = true
-  highlightjsTheme      = ""
-  highlightjsLang       = []
+  highlightjsTheme      = "dracula"
+  highlightjsLang       = ["c", "cpp", "c++", "haskell", "rust"]
   viewMorePostsLink     = "/posts/"
   readingTime           = true
   imageStretch          = ""
@@ -157,7 +168,7 @@ disableLanguages        = []
   # Social Networks
   facebook              = ""
   googleplus            = ""
-  reddit                = ""
+  reddit                = "ShepherdsOasis"
   quora                 = ""
   youtube               = ""
   vimeo                 = ""
@@ -167,7 +178,7 @@ disableLanguages        = []
     qq                  = "" # User ID Number
   instagram             = ""
   tumblr                = ""
-  twitter               = ""
+  twitter               = "ShepherdsOasis"
   strava                = ""
   skype                 = ""
   snapchat              = ""
