@@ -10,5 +10,5 @@
   publish = "build/production/static"
 
 [context.develop]
-  command = "hugo --source static --environment debug --configDir config --destination ../build/debug/static"
-  publish = "build/debug/static"
+  command = "hugo --source static --environment staging --configDir config --destination ../build/staging/static"
+  publish = "build/staging/static"
