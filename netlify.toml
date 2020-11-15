@@ -8,3 +8,7 @@
 [context.production]
   command = "hugo --source static --environment production --configDir config --destination ../build/production/static"
   publish = "build/production/static"
+
+[context.develop]
+  command = "hugo --source static --environment debug --configDir config --destination ../build/debug/static"
+  publish = "build/debug/static"
