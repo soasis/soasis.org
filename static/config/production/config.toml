@@ -1,0 +1,9 @@
+# Override settings for a debug build
+baseUrl           = "https://soasis.org"
+buildDrafts       = false
+buildExpired      = false
+buildFuture       = false
+disableLiveReload = true
+
+[minify]
+  minifyOutput = true
