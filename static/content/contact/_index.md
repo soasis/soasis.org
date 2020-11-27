@@ -11,7 +11,7 @@ form_before = true
 form_autofocus = true
 +++
 
-Looking for a more specific kind of help? Look into [Code Review](/contact/review/), [Contracting](/contact/contracting/), or [Consulting](/contact/consulting/). There are two approaches to any of these options:
+Looking for a more specific kind of help? Look into [Code Review](/contact/review/), [Contracting](/contact/contracting/), [Consulting](/contact/consulting/), or [Open Source](/contact/opensource/). There are two approaches to any of these options:
 
 - Interface with the company and receive a statement of objectives, intent, and a plan; or
 - Grab one of our skilled people for a duration of time and integrate them more fully into your team.
