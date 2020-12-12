@@ -16,7 +16,7 @@ Delivered right to <span class="green">your inbox</span>.
 
 Read about <span>Standardization</span> from the folks who have successfully passed papers and revived dead proposals in C and C++. Peek at <span class="orange">Rust</span> and <span class="yellow">WASM</span> fun. Learn about common problems and their solutions. Gaze into the <span class="green">next level</span> of language and library design.
 
-And occasionally, <span>laugh</span> at some jokes.
+And occasionally, <span class="green">laugh</span> at some jokes.
 
 It's all here. Experts. Beginners. Somewhere in-between! No spam, and we don't give your e-mail out to anyone. Just fun takes. (And sometimes <span class="pink">hot</span> ones too.)
 
