@@ -29,6 +29,4 @@ We also offer:
 - training for folks who want more directed help in becoming better leaders and peers;
 - and more!
 
-If you would like science-based, evidence-backed, and empathy-driven productivity boosts in your organizations, communities and projects, feel free.
-
-Please do reach out below to start the conversation about how we can ensure you hit your targets!
+If you would like science-based, evidence-backed, and empathy-driven productivity boosts in your organizations, communities and projects, please do reach out below to start the conversation!
