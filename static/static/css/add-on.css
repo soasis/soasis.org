@@ -156,6 +156,73 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+/* =======
+----------
+Newsletter
+----------
+======= */
+
+.newsletter span {
+	color: #4682b4;
+}
+
+.newsletter span.green {
+	color: #048942;
+}
+
+.newsletter span.pink {
+	color: #d83084;
+}
+
+.newsletter span.yellow {
+	color: #c2bf00;
+}
+
+.newsletter span.orange {
+	color: #c27400;
+}
+
+.newsletter span.cursed {
+	color: #666666;
+	font-style: italic;
+}
+
+.newsletter span.gold {
+	color: #ad7f00;
+}
+
+@media (prefers-color-scheme: dark) {
+	.newsletter span {
+		color: #3ea8ff;
+	}
+	
+	.newsletter span.green {
+		color: #5db888;
+	}
+	
+	.newsletter span.pink {
+		color: #e09bbe;
+	}
+	
+	.newsletter span.yellow {
+		color: #f7e92d;
+	}
+
+	.newsletter span.orange {
+		color: #ff9900;
+	}
+	
+	.newsletter span.cursed {
+		color: #cacaca;
+		font-style: italic;
+	}
+	
+	.newsletter span.gold {
+		color: #ffb700;
+	}
+}
+
+
 /* =================
 --------------------
 Color/Font Overrides

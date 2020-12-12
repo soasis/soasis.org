@@ -53,7 +53,7 @@ disableLanguages        = []
   imageStretch          = ""
   removeBlur            = false
   socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
-  hideEmptyStats        = false
+  hideEmptyStats        = true
 
   [params.meta]
     description         = "Built from a theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
@@ -143,6 +143,13 @@ disableLanguages        = []
     url               = "/wg14/"
     pre               = "<i class='fas fa-scroll'></i>"
     weight            = 6
+
+  [[menu.main]]
+    name              = "Newsletter"
+    identifier        = "newsletter"
+    url               = "/newsletter/"
+    pre               = "<i class='fas fa-envelope-open-text'></i>"
+    weight            = 7
 
 [social]
   # Coding Communities

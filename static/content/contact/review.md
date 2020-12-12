@@ -1,7 +1,7 @@
 +++
 title = "Contact Us for Reviews"
 description = "Get in touch by filling out the form below!"
-date = "2020-10-19"
+date = "2020-12-12"
 layout = "contact"
 netlify = true
 contact_answer_time = 72
