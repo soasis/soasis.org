@@ -23,10 +23,12 @@ form_before = false
 
 We also offer:
 
-- talks and speaking for your organization;
+- talks for your organization's events or trainings;
 - targeted one-on-one mentorship;
 - teaching geared towards software engineers and how to tackle the day to day;
 - training for folks who want more directed help in becoming better leaders and peers;
 - and more!
+
+If you would like science-based, evidence-backed, and empathy-driven productivity boosts in your organizations, communities and projects, feel free.
 
 Please do reach out below to start the conversation about how we can ensure you hit your targets!
