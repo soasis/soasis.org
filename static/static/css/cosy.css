@@ -2,7 +2,7 @@
 	text-align: center;
 	font-size: 2em;
 	border-bottom: 2px solid var(--accent-color);
-	margin: 1.2em;
+	margin: 1.2em auto 1.2em auto;
 }
 
 .cosy .logo {
@@ -55,10 +55,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.relative-container section .banner {
+	.cosy h1 {
+		margin: 1.2em auto 1.2em auto;
+		font-size: 150%;
+	}
+	.cosy .relative-container section .banner {
 		width: 80%;
 	}
-	.relative-container section:after {
-		height: 10em;
+	.cosy .relative-container section:after {
+		height: 8em;
 	}
 }

@@ -4,7 +4,11 @@ target="popupwindow"
 onsubmit="window.open('https://buttondown.email/Soasis', 'popupwindow')"
 class="embeddable-buttondown-form">
 	<div style="margin-left: 5%; margin-right: 5%;">
-		<label for="bd-email">Subscribe to the newsletter:</label>
+		{{ with .Get "title" }}
+			<label for="bd-email">{{.}}</label>
+		{{ else }}
+			<label for="bd-email">Subscribe to the newsletter:</label>
+		{{ end }}
 		<input type="email" name="email" id="bd-email"></input>
 		<input type="hidden" name="embed" value="1"></input>
 		{{ with .Get "tag" }}
