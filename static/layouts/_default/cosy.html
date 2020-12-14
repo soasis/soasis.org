@@ -1,0 +1,14 @@
+{{ define "main" }}
+	<link rel="stylesheet" href="/css/cosy.css"></link>
+	<article class="cosy">
+		<div class="content">
+			{{ .Content }}
+		</div>
+		<div id="socnet-share">
+			{{ partial "share-buttons" . }}
+		</div>
+		<footer>
+			{{ .Render "stats" }}
+		</footer>
+	</article>
+{{ end }}

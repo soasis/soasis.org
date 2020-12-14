@@ -3,9 +3,9 @@
 	{{ partial "head" . }}
 	<body>
 		{{ partial "site-header" . }}
-		<div id="main">
+		<main>
 			{{ block "main" . }}{{ end }}
-		</div>
+		</main>
 		<div id="footer-wrapper">
 			{{ partial "site-footer" . }}
 			{{ partial "scripts" . }}

@@ -82,12 +82,17 @@ Variables for Color Schemes
 
 	--main-background-color-0-light: #b7ffff;
 	--main-background-color-1-light: #75ff75;
-	--main-background-color-2-light: #ffffff;
+	--main-background-color-2-light: #ececec;
 	--main-background-color-3-light: #e2d300;
+	--main-background-color-4-light: #ff79b1;
+	--main-background-color-5-light: #ff9d4d;
+
 	--main-background-color-0-dark:  #1694dd;
 	--main-background-color-1-dark:  #179328;
 	--main-background-color-2-dark:  #222222;
 	--main-background-color-3-dark:  #8a8700;
+	--main-background-color-4-dark:  #af0049;
+	--main-background-color-5-dark:  #b95300;
 
 	--main-color-0:            var(--text-color);
 	--main-background-color-0: var(--main-background-color-0-light);
@@ -97,11 +102,17 @@ Variables for Color Schemes
 	--main-background-color-2: var(--main-background-color-2-light);
 	--main-color-3:            var(--text-color);
 	--main-background-color-3: var(--main-background-color-3-light);
+	--main-color-4:            var(--text-color);
+	--main-background-color-4: var(--main-background-color-4-light);
+	--main-color-5:            var(--text-color);
+	--main-background-color-5: var(--main-background-color-5-light);
 
 	--main-button-background-color-0: var(--main-background-color-0-dark);
 	--main-button-background-color-1: var(--main-background-color-1-dark);
 	--main-button-background-color-2: var(--main-background-color-2-dark);
 	--main-button-background-color-3: var(--main-background-color-3-dark);
+	--main-button-background-color-4: var(--main-background-color-4-dark);
+	--main-button-background-color-5: var(--main-background-color-5-dark);
 }
 
 /* ------------------------
@@ -126,11 +137,17 @@ Variables for Color Schemes
 		--main-background-color-2: var(--main-background-color-2-dark);
 		--main-color-3:            var(--text-color);
 		--main-background-color-3: var(--main-background-color-3-dark);
+		--main-color-4:            var(--text-color);
+		--main-background-color-4: var(--main-background-color-4-dark);
+		--main-color-5:            var(--text-color);
+		--main-background-color-5: var(--main-background-color-5-dark);
 
 		--main-button-background-color-0: var(--main-background-color-0-light);
 		--main-button-background-color-1: var(--main-background-color-1-light);
 		--main-button-background-color-2: var(--main-background-color-2-light);
 		--main-button-background-color-3: var(--main-background-color-3-light);
+		--main-button-background-color-4: var(--main-background-color-4-light);
+		--main-button-background-color-5: var(--main-background-color-5-light);
 	}
 }
 
@@ -277,6 +294,10 @@ a:hover {
 	color: var(--accent-color);
 }
 
+.content a {
+	text-decoration: dotted;
+}
+
 hr {
 	border-top: var(--accent-border);
 }
@@ -304,7 +325,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
 	border: var(--accent-border);
-	color: var(--accent-color) !important;
+	color: var(--accent-color);
 }
 
 input[type="submit"]:hover:active,
@@ -316,6 +337,15 @@ input[type="button"]:hover:active,
 
 label {
 	color: var(--header-color);
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.article-centered {
+	margin: 2em;
+	text-align: center;
 }
 
 .feedback-selection {
@@ -436,24 +466,19 @@ Class skinned for main
 }
 
 .main-button {
-	color: var(--text-background-color);
+	color: var(--text-background-color-2);
+	border-color: var(--text-background-color-2);
 }
 .main-button:hover {
-	border: var(--accent-border);
-	color: var(--accent-color);
+	color: var(--text-background-color);
+	border-color: var(--text-background-color);
 }
 .main-button:active {
-	background-color: var(--active-color);
+	background-color: var(--text-background-color);
 }
 
 .main-button-color-0 {
 	background-color: var(--main-button-background-color-0);
-}
-.main-button-color-0:hover {
-	border: var(--accent-border);
-}
-.main-button-color-0:active {
-	background-color: var(--active-color);
 }
 
 .main-button-color-1 {
@@ -466,6 +491,14 @@ Class skinned for main
 
 .main-button-color-3 {
 	background-color: var(--main-button-background-color-3);
+}
+
+.main-button-color-4 {
+	background-color: var(--main-button-background-color-4);
+}
+
+.main-button-color-5 {
+	background-color: var(--main-button-background-color-5);
 }
 
 /* ---------
@@ -568,6 +601,16 @@ Parallax Effect
 .bg-logo-color-3 {
 	color: var(--main-color-3);
 	background-color: var(--main-background-color-3);
+}
+
+.bg-logo-color-4 {
+	color: var(--main-color-4);
+	background-color: var(--main-background-color-4);
+}
+
+.bg-logo-color-5 {
+	color: var(--main-color-5);
+	background-color: var(--main-background-color-5);
 }
 
 .parallax-bg {

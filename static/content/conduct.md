@@ -1,15 +1,15 @@
 +++
 title = "Code of Conduct"
-description = "The social contract of the Shepherd's Oasis, LLC's events, Conferences, and public collaborative work."
+description = "The social contract of the Shepherd's Oasis, LLC's events, conferences, and public collaborative work."
 author = "Shepherd"
-date = "2020-12-12"
+date = "2020-12-14"
 layout = "normal"
 [[images]]
   src = "img/main/hand-in-hand.jpg"
-  alt = "One man's hands clasped around the back and palm of another man's single hand, holding it comfortingly."
+  alt = "One person's hands clasped around the back and palm of another person's single hand, holding it comfortingly."
 +++
 
-_This Code of Conduct is relevant to all of Shepherd Oasis's events, functions, and conferences, including the [Computing Systems Technology Conference (CoSy Tech Con)](/cosy). Last edited December 12th, 2020._
+_This Code of Conduct is relevant to all of Shepherd Oasis's events, functions, and conferences, including the [Computing Systems Technology Conference (CoSy Tech Con)](/cosy/). Last edited December 14th, 2020._
 
 
 # The Code
@@ -18,7 +18,7 @@ We are dedicated to providing a harassment-free experience for everyone, regardl
 
 Our [anti-harassment policy](#anti-harassment) can be found below.
 
-Designated Organizer/Maintainer/Staff:
+Designated Organizers, Maintainers and Staff:
 
 - JeanHeyd "ThePhD" Meneide <[wg14@soasis.org](mailto:wg14@soasis.org)>
 - Conduct Team <[conduct@soasis.org](mailto:conduct@soasis.org)>

@@ -30,6 +30,17 @@ The photos on the home page are by:
 - [fauxels](https://www.pexels.com/@fauxels?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/photo-of-people-near-wooden-table-3183156/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels).
 
 
+### CoSy
+
+The images used on the [CoSy Tech Con](/cosy/) page come from:
+
+- [Metheus Bertelli](https://www.pexels.com/@bertellifotografia?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/photo-of-people-standing-near-each-other-3321797/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels);
+- [Ali Arapoğlu](https://www.pexels.com/@baybiyik?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/empty-grey-chairs-2623869/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels);
+- [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/girlfriends-surfing-internet-on-laptops-while-lying-on-cozy-sofa-4132429/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels);
+- [Any Lane](https://www.pexels.com/@any-lane?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/serious-black-man-working-on-laptop-at-home-5727885/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels); and
+- [Andrea Piacquadio](https://www.pexels.com/@olly?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/positive-young-ethnic-lady-drinking-hot-beverage-from-cup-while-working-on-laptop-and-sitting-on-sofa-at-home-3961066/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels).
+
+
 
 ## Articles
 

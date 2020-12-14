@@ -1,0 +1,23 @@
+<section id="site-sidebar">
+	{{ if gt .Site.Params.cosy.sidebar.postAmount 0 }}
+		<section id="recent-posts">
+			<header>
+				<h1>{{ i18n "recent_posts" }}</h1>
+			</header>
+			{{ range first (.Site.Params.sidebar.postAmount | default 5) (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+			<article class="mini-post">
+					{{ .Render "featured" }}
+				<header>
+					<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+					<time class="published" datetime="{{ .Date }}">{{ .Render "date" }}</time>
+				</header>
+			</article>
+			{{ end }}
+			{{ if ge (len (where site.RegularPages "Type" "in" site.Params.mainSections)) (.Site.Params.sidebar.postAmount | default 5) }}
+				<footer>
+					<a href="{{ ( .Site.Params.viewMorePostsLink | default "blog") | relLangURL }}" class="button">{{ i18n "see_more" }}</a>
+				</footer>
+			{{ end }}
+		</section>
+	{{ end }}
+</section>

@@ -11,9 +11,7 @@
 		{{ else }}
 			{{ .Content }}
 		{{ end }}
-
-		{{ if or ( not ( isset .Params "accessible_by" ) ) ( lt now.Unix .Params.accessible_by.Unix ) }}
-		{{ else }}
+		{{ if or ( not ( isset .Params "accessible_by" ) ) ( ge now.Unix .Params.accessible_by.Unix ) }}
 			<div class="contact-container">
 				{{ if .Params.netlify }}
 				<form name="{{ .Params.form_name }}" action="{{ .Params.form_action }}" method="post" data-netlify-recaptcha="true" data-netlify="true" center width="300px">
@@ -50,7 +48,7 @@
 		{{ end }}
 		
 		{{ if .Params.form_before }}
-		{{ .Content }}
+			{{ .Content }}
 		{{ else }}
 		{{ end }}
 	</div>

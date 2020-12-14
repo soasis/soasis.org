@@ -1,0 +1,19 @@
+{{ $time_gate_time_now := now.Unix }}
+{{ $time_gate_time_later := 0 }}
+
+{{ with .Get 0 }}
+	{{ $time_gate_time_later = (time .).Unix }}
+{{ else }}
+	{{ errorf "a date must be provided for argument 0: %s" .Position }}
+{{ end }}
+{{ with .Get 1 }}
+	{{ $time_gate_time_now = (time .).Unix }}
+{{ end }}
+
+{{ with .Inner }}
+	{{ if ( lt $time_gate_time_now $time_gate_time_later ) }}
+		{{ . }}
+	{{ end }}
+{{ else }}
+	{{ errorf "the time-gate shortcode must be paired: %s" .Position }}
+{{ end }}

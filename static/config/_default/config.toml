@@ -91,6 +91,12 @@ disableLanguages        = []
     categories          = true
     categoriesByCount   = true
 
+  [params.cosy]
+    banner                = true
+
+    [params.cosy.sidebar]
+      postAmount          = 0
+
   [params.footer]
     rssFooter           = true
     socialFooter        = true
@@ -109,11 +115,18 @@ disableLanguages        = []
 
 [menu]
 
+#  [[menu.main]]
+#    name              = "Home"
+#    identifier        = "home"
+#    url               = "/"
+#    pre               = "<i class='fa fa-home'></i>"
+#    weight            = 1
+
   [[menu.main]]
-    name              = "Home"
-    identifier        = "home"
-    url               = "/"
-    pre               = "<i class='fa fa-home'></i>"
+    name              = "CoSy"
+    identifier        = "cosy"
+    url               = "/cosy"
+    pre               = "<i class='fa fa-star'></i>"
     weight            = 1
 
   [[menu.main]]
