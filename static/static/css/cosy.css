@@ -7,12 +7,16 @@
 
 .cosy .logo {
 	display: block;
-	margin: 2em auto 2em auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .cosy .relative-container section {
 	position: relative;
-	margin: 2em auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
 	height: 100%
 }
 
@@ -54,10 +58,14 @@
 	background-image: url("/img/cosy/large-pexels-gathering.jpg");
 }
 
+.cosy input {
+	width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
 	.cosy h1 {
 		margin: 1.2em auto 1.2em auto;
-		font-size: 150%;
+		font-size: x-large;
 	}
 	.cosy .relative-container section .banner {
 		width: 80%;

@@ -73,7 +73,7 @@ disableLanguages        = []
 
   [params.intro]
     header                = "Shepherd's Oasis, LLC"
-    paragraph             = "A software consulting, contracting, training, teaching and services company here to help you deliver the best quality for your business and your customers!"
+    paragraph             = "A software consulting, contracting, training, teaching and services company here to help you deliver the best quality for your business, organization, customers and constituents!"
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false

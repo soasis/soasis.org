@@ -10,9 +10,9 @@ outputs = ["html"]
 
 <div class="cosy">
 
-<img class="logo" src="/img/cosy/cosy-small.png">
-
 <div class="relative-container">
+
+<img class="logo" src="/img/cosy/cosy-small.png">
 
 <section id="cosy">
 <div class="banner">
