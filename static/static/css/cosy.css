@@ -32,10 +32,9 @@
 	display: block;
 	position: relative;
 	background-attachment: fixed;
-	background-size: scroll;
+	background-size: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
-	width: auto;
 	height: 20em;
 }
 
