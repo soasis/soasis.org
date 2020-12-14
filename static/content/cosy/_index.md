@@ -4,7 +4,6 @@ description = "Computing Systems Technology Conference"
 author = "Shepherd"
 date = "2020-12-14"
 layout = "cosy"
-reading_time = false
 outputs = ["html"]
 +++
 
@@ -25,7 +24,7 @@ outputs = ["html"]
 <section id="when">
 <div class="banner">
 <h1>When ⌚</h1>
-<p>The conference will take place <strong>Late Fall 2021</strong>. We will provide a date a little bit closer to the time to ensure we can avoid the bulk of other similarly-themed conferences around this time. Speaker submissions will open up around February 2021, and accepted talks will be notified by the end of the Summer or earlier! It will take place on or close to a weekend to allow for maximum participation from around the globe! We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to!</p>
+<p>The conference will take place <strong>Late Fall 2021</strong>. We will provide an exact date later to ensure we can avoid the bulk of other similarly-themed conferences around this time. It will take place on or close to a weekend to allow for maximum participation from around the globe. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
 </div>
 </section>
 
@@ -39,14 +38,15 @@ outputs = ["html"]
 <section id="what">
 <div class="banner">
 <h1>What </h1>
-<p>We have 2 keynote presentations planned that we will announce closer to the date. We'll also have 30 minute to 1 hour talk slots available for many of the fantastic folks we already have lined up and who will apply in the future to speak! Submissions for other speakers will open up in late winter / early spring! If you have a special request, you can <a href="/contact/basic/">get in touch with us sooner</a>. Keep an eye on the <a href="/newsletter/">newsletter</a> for reminders about submissions and registration.</p>
+<p>There are 2 keynote presentations planned that we will announce closer to the date. Talk slots for 30 minute to 1 hour will be available for many of the fantastic folks we already have lined up and who will apply in the future to speak! Submissions for other speakers will open up in late winter / early spring. If you have a special request, you can <a href="/contact/basic/">get in touch with us sooner</a>. Keep an eye on the <a href="/newsletter/">newsletter</a> for reminders about submissions, registration, and more!</p>
 </div>
 </section>
 
 <section id="excited">
 <div class="banner">
 <h1>We're excited! 🎉</h1>
-<p>Providing a great conference experience has us eager to move things forward. We want a community that makes everyone, especially the most vulnerable, feel welcome. We do this by prioritizing the comfort of the least powerful and centering their voices and comfort. We have a firm <a href="/conduct/">Code of Conduct</a> that makes transparency and accountability front-and-center for abuse prevention in our event structure. We are confident in our team to deliver on where others have failed us in meeting the Social Contract!</p>
+<p>Providing a great conference experience has us eager to move things forward. We want a community that makes everyone, especially the most vulnerable, feel welcome. We do this by prioritizing the comfort of the least powerful and centering their voices and comfort with a firm <a href="/conduct/">Code of Conduct</a>.</p>
+<p>Notably, part of the requirements for Shepherd's Oasis events is public, openly-accessible transparency and accountability for everything that happens. We take both inclusive environment cultivation as well as abuse prevention and mitigation into account for our event structure and organizational work!</p>
 </div>
 </section>
 
