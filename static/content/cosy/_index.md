@@ -54,7 +54,7 @@ outputs = ["html"]
 <div class="banner">
 <h1>See you soon 💙</h1>
 <p>We'll share more information in the coming months.</p>
-<p>Stay connected with <a href="/newsletter/">our newsletter</a> so you can be up to date on conference preparations and Shepherd's Oasis's happenings:</p>
+<p>Stay connected with <a href="/newsletter/">our newsletter</a> so you can be up to date on <span>conference preparations</span> and the happenings of Shepherd's Oasis:</p>
 {{< subscribe/buttondown title=" " text="Newsletter Sign Up" >}}
 </div>
 </section>
