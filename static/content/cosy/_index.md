@@ -8,11 +8,11 @@ reading_time = false
 outputs = ["html"]
 +++
 
+<img class="logo" src="/img/cosy/cosy-small.png">
+
 <div class="cosy">
 
 <div class="relative-container">
-
-<img class="logo" src="/img/cosy/cosy-small.png">
 
 <section id="cosy">
 <div class="banner">
