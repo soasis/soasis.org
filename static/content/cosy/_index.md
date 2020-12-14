@@ -17,7 +17,7 @@ outputs = ["html"]
 <div class="banner">
 <h1>A Conference Centering Us</h1>
 <p>Welcome to the Computing Systems Technology Conference (CoSy Tech Con). <strong>CoSy</strong> (pronounced like "cozy") is a Systems Programming Conference open to developers from all walks of life, both professional and non-professional, who want to engage other like-minded individuals for an intimate and wonderful blend of content.</p>
-<p>Ready for more? Keep scrolling down 👇, or <a href="/overview/">visit the overview</a>.</p>
+<p>Ready for more? Keep scrolling down 👇, or <a href="/cosy/overview/">visit the overview</a>.</p>
 </div>
 </section>
 
