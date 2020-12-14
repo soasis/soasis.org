@@ -29,7 +29,7 @@
 	position: relative;
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: right;
+	background-position: center top;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 20em;
@@ -39,19 +39,19 @@
 	background-image: url("/img/cosy/prague-meetup.jpg");
 }
 .cosy .relative-container section:nth-child(2):after {
-	background-image: url("/img/cosy/large-pexels-gathering.jpg");
+	background-image: url("/img/cosy/person-on-couch-with-laptop-legs-stretched.jpg");
 }
 .cosy .relative-container section:nth-child(3):after {
-	background-image: url("/img/cosy/person-on-couch-with-laptop-legs-stretched.jpg");
+	background-image: url("/img/cosy/conference-seats.jpg");
 }
 .cosy .relative-container section:nth-child(4):after {
 	background-image: url("/img/cosy/person-on-couch-with-laptop-sitting.jpg");
 }
 .cosy .relative-container section:nth-child(5):after {
-	background-image: url("/img/cosy/two-people-on-couch-with-laptops.jpg");
+	background-image: url("/img/cosy/excited-man-sitting-at-table-with-laptop.jpg");
 }
 .cosy .relative-container section:nth-child(6):after {
-	background-image: url("/img/cosy/conference-seats.jpg");
+	background-image: url("/img/cosy/large-pexels-gathering.jpg");
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,6 +59,6 @@
 		width: 80%;
 	}
 	.relative-container section:after {
-		height: 15em;
+		height: 10em;
 	}
 }

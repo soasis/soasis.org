@@ -46,11 +46,17 @@ outputs = ["html"]
 </div>
 </section>
 
+<section id="excited">
+<div class="banner">
+<h1>We're excited! 🎉</h1>
+<p>Providing a great conference experience has us eager to move things forward. We want a community that makes everyone, especially the most vulnerable, feel welcome. We do this by prioritizing the comfort of the least powerful and centering their voices and comfort. We have a firm <a href="/conduct/">Code of Conduct</a> that makes transparency and accountability necessary for our event structure, and we are confident in our team to deliver on where others have failed in meeting the Social Contract.</p>
+<p>We'll share more information in the coming months. Don't forget to <a href="/newsletter/">subscribe to the newsletter</a> to keep on top of these things. See you there! 💙</p>
+</div>
+</section>
+
 <section id="final">
 <div class="banner">
-<h1>Get excited! 🎉</h1>
-<p>Providing a great conference experience has us eager to move things forward. We want a community that makes both the very well known and the most vulnerable feel welcome. We do this by prioritizing the comfort of the least powerful and centering their voices and comfort. We have a firm <a href="/conduct/">Code of Conduct</a> that makes transparency and accountability necessary for our event structure, and we are confident in our team to deliver on where others have failed in meeting the Social Contract.</p>
-<p>We'll share more information in the coming months. Don't forget to <a href="/newsletter/">subscribe to the newsletter</a> to keep on top of these things. See you there! 💙</p>
+<h1>See you soon 💙</h1>
 </div>
 </section>
 

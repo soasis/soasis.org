@@ -3,15 +3,14 @@
 	{{ partial "head" . }}
 	<body>
 		{{ partial "site-header" . }}
-		{{ partial "cosy-banner" . }}
 		<div id="wrapper">
 			{{ partial "site-intro" . }}
 			<main id="site-main">
 				{{ block "main" . }}{{ end }}
 			</main>
 			{{ partial "cosy-sidebar" . }}
-			{{ partial "site-footer" . }}
-			{{ partial "scripts" . }}
 		</div>
+		{{ partial "site-footer" . }}
+		{{ partial "scripts" . }}
 	</body>
 </html>
