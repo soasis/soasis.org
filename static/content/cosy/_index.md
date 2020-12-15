@@ -24,7 +24,7 @@ outputs = ["html"]
 <section id="when">
 <div class="banner">
 <h1>When ⌚</h1>
-<p>The conference will take place <strong>Late Fall 2021</strong>. We will provide an exact date later to ensure we can avoid the bulk of other similarly-themed conferences around this time. It will take place on or close to a weekend to allow for maximum participation from around the globe. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
+<p>The conference will take place <strong>Late Fall 2021</strong>. (Or just <strong>sometime around October, give or take a month</strong>, for those who are in the Southern Hemisphere!) We will provide an exact date later to ensure we can avoid the bulk of other similarly-themed conferences around this time. It will take place on or close to a weekend to allow for maximum participation from around the globe. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
 </div>
 </section>
 
