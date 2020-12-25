@@ -38,7 +38,7 @@ outputs = ["html"]
 <section id="what">
 <div class="banner">
 <h1>What </h1>
-<p>There are 2 keynote presentations planned that we will announce closer to the date. Talk slots for 30 minute to 1 hour will be available for many of the fantastic folks we already have lined up and who will apply in the future to speak! Submissions for other speakers will open up in late winter / early spring. If you have a special request, you can <a href="/contact/basic/">get in touch with us sooner</a>. Keep an eye on the <a href="/newsletter/">newsletter</a> for reminders about submissions, registration, and more!</p>
+<p>There are 2 keynote presentations planned that we will announce closer to the date. Talk slots for 30 minute to 1 hour will be available. Many fantastic folk are being checked out for keynote speaker positions (but if your outline is selected, you can be one too!)! Submissions for all talk positions will open up in late winter / early spring (around March 2021, give or take a month). If you have a special request, you can <a href="/contact/basic/">get in touch with us sooner</a>. Keep an eye on the <a href="/newsletter/">newsletter</a> for reminders about submissions, registration, and more!</p>
 </div>
 </section>
 
