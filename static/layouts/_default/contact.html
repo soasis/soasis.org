@@ -12,7 +12,7 @@
 			{{ .Content }}
 		{{ end }}
 
-		{{ if or ( not ( isset .Params "accessible_by" ) ) ( lt now.Unix .Params.accessible_by.Unix ) }}
+		{{ if and ( isset .Params "accessible_by" ) ( lt now.Unix .Params.accessible_by.Unix ) }}
 		{{ else }}
 			<div class="contact-container">
 				{{ if .Params.netlify }}
