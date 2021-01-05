@@ -1,6 +1,6 @@
 # Sidebar
 [attribution]
-  other = "<a href='/credits/'>Credits & Attribution</a>"
+  other = "<a href='/credits/'>Credits & Attribution</a> | <a href='/privacy/'>Privacy Policy</a>"
 
 # Post
 [reading_time]
