@@ -24,16 +24,18 @@ Stay tuned by signing up to [the newsletter](/newsletter/) below to get updates 
 
 While we get set up and prepare for the future of CoSy Tech 2021, here are some quick details about the upcoming event.
 
-- 💻 Free, virtual event.
-- 📅 2 days.
+- 💻 Free, virtual event. (All talks are free and will be published, but certain before/after events will be paid content only.)
 - 📣 2 keynote speakers.
-- ⌚ to 60 minute talks on C, C++, Zig, Rust, and many other systems programming topics.
-- 👤👤 Double-blinded reviews.
+- 📅 2 days, with 1 day after for concurrently-held trainings.
+- 🛤️ 1 track.
+- ⌚ 15 to 60 minute talks on C, C++, Zig, Rust, Nim, and many other systems programming topics.
+- 👤👤 Double-blinded submission reviews.
+
 
 
 ## Where? {#quick-where}
 
-It will be an entirely online event. Bring your comfy shirts and your shorts even if it is the late Fall: you will be at home or in a similar location. Relax and absorb as much as you want! The conference will be streamed for free on [our Twitch.tv channel](https://www.twitch.tv/shepherdsoasis/) and [our YouTube channel](https://www.youtube.com/channel/UCbPn0sw5rIgfT0vlSBvCWlA), as well as a to-be-determined location within [Hopin](https://hopin.to/) to allow for networking and sharing between participants. We are currently working out the logistics for Hopin and will share more, soon!
+It will be an entirely online event. Bring your comfy shirts and your shorts even if it is the late Fall: you will be at home or in a similar location. Relax and absorb as much as you want! The conference will be streamed for free on [our Twitch.tv channel](https://www.twitch.tv/shepherdsoasis/) and [our YouTube channel](https://www.youtube.com/channel/UCbPn0sw5rIgfT0vlSBvCWlA), as well as a to-be-determined location within [Hopin](https://hopin.to/) to allow for networking, booths, and sharing between participants. We are currently working out the logistics for Hopin and will share more, soon!
 
 
 
@@ -45,7 +47,7 @@ We are planning for some time during Fall 2021! A more concrete date will be sen
 
 ## Who? {#quick-who}
 
-Shepherd's Oasis (that's us!) will be running this event. We already have a couple speakers lined up but there is room for more!
+Shepherd's Oasis (that's us!) will be running this event. We already have some key noters lined up, but there's room for other main speakers!
 
 We would also like to **emphatically** invite:
 
