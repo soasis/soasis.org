@@ -55,7 +55,7 @@ Data is only retained for as long as it is necessary to sustain a conversation w
 
 # Contact Information
 
-If you have further questions or pointed concerns, please contact Shepherd directly by e-mail at [sheperd@soasis.org](mailto:shepherd@soasis.org).
+If you have further questions or pointed concerns, please reach out directly by e-mail to [social@soasis.org](mailto:social@soasis.org).
 
 
 

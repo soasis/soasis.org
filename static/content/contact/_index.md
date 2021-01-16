@@ -23,7 +23,7 @@ Either is just fine!
 Get in touch more directly...
 
 - for project, contract, and consulting inquiries: [inquiries@soasis.org](mailto:inquiries@soasis.org)
-- to talk about the website in general: [shepherd@soasis.org](mailto:shepherd@soasis.org)
+- to talk about the website in general: [social@soasis.org](mailto:social@soasis.org)
 - to get the attention of the C Project Editor: [wg14@soasis.org](mailto:wg14@soasis.org)
 
 ---
