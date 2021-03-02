@@ -24,18 +24,22 @@ Stay tuned by signing up to [the newsletter](/newsletter/) below to get updates 
 
 While we get set up and prepare for the future of CoSy Tech 2021, here are some quick details about the upcoming event.
 
-- 💻 Free, virtual event. (All talks are free and will be published, but certain before/after events will be paid content only.)
-- 📣 2 keynote speakers.
-- 📅 2 days, with 1 day after for concurrently-held trainings.
-- 🛤️ 1 track.
-- ⌚ 15 to 60 minute talks on C, C++, Zig, Rust, Nim, and many other systems programming topics.
-- 👤👤 Double-blinded submission reviews.
+- 💻 Main Event is **Virtual** and **Free**.  
+  All talks are free and will be published, but certain during/after events and training will be paid access.
+- 📅 4 days total:  
+  🌃 3 days, **October 15<sup>th</sup> — 17<sup>th</sup>**, 2021 for the Main Event.  
+  🎓 1 day, **October 18<sup>th</sup>**, 2021 for the concurrently-held Trainings.
+- 📣 1 track, 12+ talks.
+- 🗝️ 2 keynote speakers.
+- 💬 **Live Captioning** for the hard of hearing.
+- ⌚ **15 to 60 minute** talks on C, C++, Zig, Rust, Nim, and many other systems programming topics.
+- 👤👤 **Double-blinded** submissions and reviews.
 
 
 
 ## Where? {#quick-where}
 
-It will be an entirely online event. Bring your comfy shirts and your shorts even if it is the late Fall: you will be at home or in a similar location. Relax and absorb as much as you want! The conference will be streamed for free on [our Twitch.tv channel](https://www.twitch.tv/shepherdsoasis/) and [our YouTube channel](https://www.youtube.com/channel/UCbPn0sw5rIgfT0vlSBvCWlA), as well as a to-be-determined location within [Hopin](https://hopin.to/) to allow for networking, booths, and sharing between participants. We are currently working out the logistics for Hopin and will share more, soon!
+It will be an entirely online event. Bring your comfy shirts and your shorts even if it is the late Fall: you will be at home or in a similar location. Relax and absorb as much as you want! The conference will be streamed for free on [our Twitch.tv channel](https://www.twitch.tv/shepherdsoasis/) and [our YouTube channel](https://www.youtube.com/channel/UCbPn0sw5rIgfT0vlSBvCWlA), as well as live within [Hopin](https://hopin.to/) to allow for chatting, networking, booths, and sharing between participants!
 
 
 
@@ -64,7 +68,7 @@ All attendees must abide by the [Code of Conduct](/conduct/).
 
 ## What? {#quick-what}
 
-Speakers can either present live or, if their situation does not allow for it, record the talk ahead of time and send in a video. (Then they can sneak into the audience and watch their own video/slides!) Talks will range from 30 minutes to 1 hour, with two keynotes!
+Speakers can either present live or, if their situation does not allow for it, record the talk ahead of time and send in a video. (Then they can sneak into the audience and watch their own video/slides!) Talks will range from 15 minutes to 1 hour, with two keynotes!
 
 
 
@@ -88,7 +92,7 @@ Please, reach out to [cosy@soasis.org](mailto:cosy@soasis.org)! We would be more
 
 ## Pronunciation? {#quick-pronunciation}
 
-It is pronounced _[ koh-zee tek ]_ (or IPA style, _/ˈkoʊ zi tɛk /_), as in the sentences:
+CoSy Tech is pronounced _[ koh-zee tek ]_ (or IPA style, _/ˈkoʊ zi tɛk /_), as in the sentences:
 
 > Cozy resting chair.  
 > I sip my conference tea;  

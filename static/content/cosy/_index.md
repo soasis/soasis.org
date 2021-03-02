@@ -2,7 +2,7 @@
 title = "CoSy Tech Con!"
 description = "Computing Systems Technology Conference"
 author = "Shepherd"
-date = "2020-12-14"
+date = "2021-03-02"
 layout = "cosy"
 outputs = ["html"]
 +++
@@ -15,7 +15,7 @@ outputs = ["html"]
 
 <section id="cosy">
 <div class="banner">
-<h1>A Conference Centering Us</h1>
+<h1>A Conference Centering Us - October 15-17, 2021</h1>
 <p>Welcome to the Computing Systems Technology Conference (CoSy Tech Con). <strong>CoSy</strong> (pronounced like "cozy") is a Systems Programming Conference open to developers from all walks of life, both professional and non-professional, who want to engage other like-minded individuals for an intimate and wonderful blend of content.</p>
 <p>Ready for more? Keep scrolling down 👇, or <a href="/cosy/overview/">visit the overview</a>.</p>
 </div>
@@ -24,14 +24,14 @@ outputs = ["html"]
 <section id="when">
 <div class="banner">
 <h1>When ⌚</h1>
-<p>The conference will take place <strong>Late Fall 2021</strong>. (Or just <strong>sometime around October, give or take a month</strong>, for those who are in the Southern Hemisphere!) We will provide an exact date later to ensure we can avoid the bulk of other similarly-themed conferences around this time. It will take place on or close to a weekend to allow for maximum participation from around the globe. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
+<p>The conference will take place <strong>October 15<sup>th</sup> - 17<sup>th</sup>, virtually</strong>. Trainings will happen on October 18<sup>th</sup>. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
 </div>
 </section>
 
 <section id="where">
 <div class="banner">
 <h1>Where 🔍</h1>
-<p>The conference is going to be virtual! It will be streamed on the <a href="https://www.twitch.tv/shepherdsoasis">Shepherd's Oasis Twitch Channel</a> and at the <a href="https://www.youtube.com/channel/UCbPn0sw5rIgfT0vlSBvCWlA">Shepherd's Oasis YouTube Channel</a>, with live interaction on social media and at <a href="https://hopin.to">Hopin</a>. Bring a microphone and maybe a web camera to talk with others, chat in the dedicated chatrooms, or just lounge, relax, and listen!</p>
+<p>The conference is going to be virtual! It will be streamed on the <a href="https://www.twitch.tv/shepherdsoasis">Shepherd's Oasis Twitch Channel</a> and at the <a href="https://www.youtube.com/channel/UCbPn0sw5rIgfT0vlSBvCWlA">Shepherd's Oasis YouTube Channel</a>, with live interaction on social media and at <a href="https://hopin.to">Hopin</a>. Bring a microphone and maybe a web camera to talk with others, a keyboard or other input device to chat in the dedicated chatrooms, or just listen, lounge, and relax!</p>
 </div>
 </section>
 
