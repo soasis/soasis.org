@@ -27,8 +27,8 @@ While we get set up and prepare for the future of CoSy Tech 2021, here are some 
 - 💻 Main Event is **Virtual** and **Free**.  
   All talks are free and will be published, but certain during/after events and training will be paid access.
 - 📅 4 days total:  
-  🌃 3 days, **October 15<sup>th</sup> — 17<sup>th</sup>**, 2021 for the Main Event.  
-  🎓 1 day, **October 18<sup>th</sup>**, 2021 for the concurrently-held Trainings.
+  🌃 3 days, Monday — Wednesday, **October 18<sup>th</sup> — 20<sup>th</sup>**, 2021 for the Main Event.  
+  🎓 1 day, Thursday, **October 21<sup>st</sup>**, 2021 for the concurrently-held Trainings.
 - 📣 1 track, 12+ talks.
 - 🗝️ 2 keynote speakers.
 - 💬 **Live Captioning** for the hard of hearing.
