@@ -2,7 +2,7 @@
 title = "CoSy Tech Conference Overview"
 description = "Learn some of the high-level information about the Computing Systems Technology Conference."
 author = "Shepherd"
-date = "2020-12-14"
+date = "2021-04-29"
 layout = "normal"
 reading_time = false
 outputs = ["html"]
@@ -27,13 +27,13 @@ While we get set up and prepare for the future of CoSy Tech 2021, here are some 
 - 💻 Main Event is **Virtual** and **Free**.  
   All talks are free and will be published, but certain during/after events and training will be paid access.
 - 📅 4 days total:  
-  🌃 3 days, Monday — Wednesday, **October 18<sup>th</sup> — 20<sup>th</sup>**, 2021 for the Main Event.  
-  🎓 1 day, Thursday, **October 21<sup>st</sup>**, 2021 for the concurrently-held Trainings.
+  🌃 3 days, Monday — Wednesday, October, 2022 for the Main Event.  
+  🎓 2 days, Thursday — Friday, October 2022 for the concurrently-held Trainings.
 - 📣 1 track, 12+ talks.
 - 🗝️ 2 keynote speakers.
 - 💬 **Live Captioning** for the hard of hearing.
 - ⌚ **15 to 60 minute** talks on C, C++, Zig, Rust, Nim, and many other systems programming topics.
-- 👤👤 **Double-blinded** submissions and reviews.
+- 👤👤 **Anonymized** submission reviews (for both reviewers and submitters).
 
 
 

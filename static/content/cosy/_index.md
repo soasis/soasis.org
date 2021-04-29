@@ -2,7 +2,7 @@
 title = "CoSy Tech Con!"
 description = "Computing Systems Technology Conference"
 author = "Shepherd"
-date = "2021-03-02"
+date = "2021-04-29"
 layout = "cosy"
 outputs = ["html"]
 +++
@@ -15,7 +15,7 @@ outputs = ["html"]
 
 <section id="cosy">
 <div class="banner">
-<h1>A Conference Centering Us<br/>October 18-20, 2021</h1>
+<h1>A Conference Centering Us<br/>October, 2022</h1>
 <p>Welcome to the Computing Systems Technology Conference (CoSy Tech Con). <strong>CoSy</strong> (pronounced like "cozy") is a Systems Programming Conference open to developers from all walks of life, both professional and non-professional, who want to engage other like-minded individuals for an intimate and wonderful blend of content.</p>
 <p>Ready for more? Keep scrolling down 👇, or <a href="/cosy/overview/">visit the overview</a>.</p>
 </div>
@@ -24,7 +24,7 @@ outputs = ["html"]
 <section id="when">
 <div class="banner">
 <h1>When ⌚</h1>
-<p>The conference will take place <strong>October 18<sup>th</sup> - 20<sup>th</sup>, virtually</strong>. Trainings will happen on October 21<sup>th</sup>. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
+<p>The conference will take place <strong>October 2022, virtually</strong>. Trainings will happen on the last day of the conference. We will make recordings available for the general public later on in some fashion, unless the speaker explicitly requests us not to.</p>
 </div>
 </section>
 
