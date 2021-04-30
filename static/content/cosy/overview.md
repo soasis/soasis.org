@@ -51,7 +51,7 @@ We are planning for some time during Fall 2021! A more concrete date will be sen
 
 ## Who? {#quick-who}
 
-Shepherd's Oasis (that's us!) will be running this event. We already have some key noters lined up, but there's room for other main speakers!
+Shepherd's Oasis (that's us!) will be running this event. We already have some keynoters lined up, but there's room for other main speakers!
 
 We would also like to **emphatically** invite:
 
