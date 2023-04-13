@@ -2,3 +2,5 @@ target/
 build/
 .vscode
 *.kra
+static/.hugo_build.lock
+static/resources/_gen/*
