@@ -4,3 +4,4 @@ build/
 *.kra
 static/.hugo_build.lock
 static/resources/_gen/*
+.build/
