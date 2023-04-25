@@ -27,13 +27,13 @@ disableLanguages        = []
   unsafe                = true
 
 [markup.highlight]
-  anchorLineNos = true
+  lineNos = true
+  lineNoStart = 0
+  lineNumbersInTable = false
+  anchorLineNos = false
   codeFences = true
   guessSyntax = false
-  lineNoStart = 0
-  lineNos = true
-  lineNumbersInTable = false
-  noClasses = true
+  noClasses = false
   style = "dracula"
   tabWidth = 5
 
