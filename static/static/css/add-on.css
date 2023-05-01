@@ -158,7 +158,6 @@ Body Setup
 ======= */
 
 *, *::after, *::before { box-sizing: inherit; }
-*::selection { background-color: var(--selection-background-color); }
 :root {
 	background-color: var(--text-background-color);
 	font-family: var(--body-font);
